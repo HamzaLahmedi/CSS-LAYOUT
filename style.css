@@ -1,0 +1,238 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-nav{
+    justify-items: flex-end;
+}
+
+.container-fluid{
+    background-color: white;
+}
+.bg-light{
+background-color: white;}
+.logoo{
+display: block;
+margin: 0 auto;
+height: 5%;
+width: 5%;
+}
+#make{
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.parent{
+    display: flex;
+    margin-top: 5%;
+    
+}
+.child{
+    line-height: 1.75;
+    font-weight: 400;
+    margin-left: -3%;
+    margin-right: -3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: rgb(105, 103, 103);
+    
+}
+
+.containerr{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.box{
+    height: 350px;
+    border: 2px solid #00b39b;
+  
+  border-radius: 25px;
+    border-radius:  10px ;
+    position: relative;
+}
+#box1{
+    background-color: #00b39b;
+}
+.col1{
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+.col2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.domain {
+    padding-top: 58px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#box2{
+    background-color: #3d83df;
+}
+
+#box3{
+    background-color: #1b2734;
+}
+.comp{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.row{
+    float: none;
+    flex-wrap: wrap;
+    text-align: auto;
+    width: 100%;
+}
+.container{
+    margin-top: 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+#pp{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+#ppp{
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+#logo{
+    justify-self: self-end;
+}
+#containeer{
+    
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: #83f1e3;
+}
+.boxxx{
+    border: solid 2px white;
+    border-radius: 2px;
+    width: 300px;
+    height: 250px;
+    margin:auto;
+    display:block;
+    margin-right: 1%;
+    background-color: #fff;
+
+   
+}
+.photo{
+    padding-left: 120px;
+}
+
+.lead{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+
+#l{
+    margin-left: 30%;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#h{
+    line-height: 1.7142857143;
+    margin-left: 30%;
+}
+
+.containerrr{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+
+
+.sandou9{
+    
+   
+    height: 350px;
+    
+  
+  border-radius: 25px;
+    border-radius:  10px ;
+    position: relative;
+}
+#sandou91{
+    background-image: url("https://www.docplanner.com/images/warsaw.png");
+    background-size: cover;
+}
+.btn--small{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    
+    
+}
+.office__desc{
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    margin-top: 100%;
+    margin-right: 50%;
+    margin-bottom: 3%;
+    display: flex;
+    
+}
+#sandou92{
+    background-image: url("https://www.docplanner.com/images/barcelona.png");
+    background-size: cover;
+}
+#sandou93{
+    background-image: url("https://www.docplanner.com/images/munich.png");
+    background-size: cover;
+}
+#end{
+    font-size: 2.1428571429em;
+    width: 200%;
+    color: #333;
+    margin-left: 150%;
+}
